@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import leaf from "../../Assets/Projects/gdp.png";
+import emotion from "../../Assets/Projects/hostpital.png";
+import editor from "../../Assets/Projects/chatapp.png";
+import chatify from "../../Assets/Projects/amazon.png";
+import suicide from "../../Assets/Projects/autorecon.png";
+import bitsOfCode from "../../Assets/Projects/cloud.png";
 
 function Projects() {
   return (
@@ -25,10 +25,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Amazon Clone using MEAN Stack"
+              description="WeBUY application has several features that are common to e-commerce platforms, such as user registration, product listings, shopping cart management, and order management. The application allows users to create accounts, browse through different product categories, add products to their cart, and complete the checkout process by making payments."
+              ghLink="https://github.com/Retr0-45809/WeBUY"
             />
           </Col>
 
@@ -36,10 +35,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Secure Cloud Storage"
+              description="This project is about developing cloud storage using the MERN stack that will encrypt users' files using cryptography to provide security and maintain the confidentiality of user data. Providing double encrytion for files can provide extra security than other storages that are usually open for others to view and access."
+              ghLink="https://github.com/Retr0-45809/CrowdCloud"
             />
           </Col>
 
@@ -47,10 +45,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Chat App using RSA encrpytion"
+              description="Chat app using RSA encryption and sockets project aims to provide a secure and private chat application that allows users to communicate with each other without the risk of eavesdropping or interception. The chat application allows multiple clients to connect to a server & communicate with each other in a secure way."
+              ghLink="https://github.com/Retr0-45809/Chat-app-using-rsa-encryption-and-sockets"
             />
           </Col>
 
@@ -58,10 +55,9 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="GDP Prediction Model"
+              description="The  project focuses on performing Exploratory Data Analysis (EDA) on the dataset. The purpose of EDA is to explore and understand the dataset before building a prediction model. The project appears to be using data from the World Bank's World Development Indicators (WDI) database."
+              ghLink="https://github.com/Retr0-45809/GDP-Prediction-Model"
             />
           </Col>
 
@@ -69,10 +65,9 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Reconaissance Tool"
+              description="Autorecon aims to provide a useful tool for penetration testers and security researchers to automate the reconnaissance process and identify potential attack vectors and vulnerabilities in a target system or network. The tool  performs various types of scans, such as port scanning, web application scanning, service enumeration, and fingerprinting."
+              ghLink="https://github.com/Retr0-45809/autorecon"
             />
           </Col>
 
@@ -80,11 +75,9 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Hospital Management System"
+              description="The Hospital Management System allows hospital administrators and staff to manage various aspects of the hospital, such as patient information, appointment scheduling, billing, and inventory management. The project contains several Java classes that handle different functionalities of the system for managing patient information, scheduling appointments, managing hospital inventory, and generating bills."
+              ghLink="https://github.com/Retr0-45809/Hospital-Management-System-Using-Oracle"
             />
           </Col>
         </Row>

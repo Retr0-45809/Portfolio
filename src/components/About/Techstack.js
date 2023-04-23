@@ -10,9 +10,9 @@ import {
   DiGit,
 } from "react-icons/di";
 import {
-  SiPytorch,
-  SiFirebase,
-  SiNextdotjs,
+  SiKeras,
+  SiOracle,
+  SiLinux,
 } from "react-icons/si";
 
 function Techstack() {
@@ -34,19 +34,19 @@ function Techstack() {
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiLinux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiOracle />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <SiKeras />
       </Col>
     </Row>
   );
