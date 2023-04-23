@@ -25,7 +25,7 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Amazon Clone using MEAN Stack"
+              title="1. Amazon Clone using MEAN Stack"
               description="WeBUY application has several features that are common to e-commerce platforms, such as user registration, product listings, shopping cart management, and order management. The application allows users to create accounts, browse through different product categories, add products to their cart, and complete the checkout process by making payments."
               ghLink="https://github.com/Retr0-45809/WeBUY"
             />
@@ -35,7 +35,7 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Secure Cloud Storage"
+              title="2. Secure Cloud Storage"
               description="This project is about developing cloud storage using the MERN stack that will encrypt users' files using cryptography to provide security and maintain the confidentiality of user data. Providing double encrytion for files can provide extra security than other storages that are usually open for others to view and access."
               ghLink="https://github.com/Retr0-45809/CrowdCloud"
             />
@@ -45,7 +45,7 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Chat App using RSA encrpytion"
+              title="3. Chat App using RSA encrpytion"
               description="Chat app using RSA encryption and sockets project aims to provide a secure and private chat application that allows users to communicate with each other without the risk of eavesdropping or interception. The chat application allows multiple clients to connect to a server & communicate with each other in a secure way."
               ghLink="https://github.com/Retr0-45809/Chat-app-using-rsa-encryption-and-sockets"
             />
@@ -55,7 +55,7 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="GDP Prediction Model"
+              title="4. GDP Prediction Model"
               description="The  project focuses on performing Exploratory Data Analysis (EDA) on the dataset. The purpose of EDA is to explore and understand the dataset before building a prediction model. The project appears to be using data from the World Bank's World Development Indicators (WDI) database."
               ghLink="https://github.com/Retr0-45809/GDP-Prediction-Model"
             />
@@ -65,7 +65,7 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Reconaissance Tool"
+              title="5. Reconaissance Tool"
               description="Autorecon aims to provide a useful tool for penetration testers and security researchers to automate the reconnaissance process and identify potential attack vectors and vulnerabilities in a target system or network. The tool  performs various types of scans, such as port scanning, web application scanning, service enumeration, and fingerprinting."
               ghLink="https://github.com/Retr0-45809/autorecon"
             />
@@ -75,7 +75,7 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Hospital Management System"
+              title="6. Hospital Management System"
               description="The Hospital Management System allows hospital administrators and staff to manage various aspects of the hospital, such as patient information, appointment scheduling, billing, and inventory management. The project contains several Java classes that handle different functionalities of the system for managing patient information, scheduling appointments, managing hospital inventory, and generating bills."
               ghLink="https://github.com/Retr0-45809/Hospital-Management-System-Using-Oracle"
             />
