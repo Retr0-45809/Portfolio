@@ -18,9 +18,9 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I have a passion to learn more about developing various tools using different technologies.
+              I have a passion for learning and developing various applications using different tools and technologies.
               <br />
-              <br />I am fluent in languages like
+              <br />I am fluent in programming languages like
               <i>
                 <b className="purple"> C++, Java and Python. </b>
               </i>
@@ -28,25 +28,24 @@ function Home2() {
               <br />
               My field of Interests are in &nbsp;
               <i>
-                <b className="purple">Cybersecurity </b> and
-                also in areas related to{" "}
+                <b className="purple">Software Development that includes </b> {" "}
                 <b className="purple">
-                  Web Development and Machine Learning.
+                  Web Development and Machine Learning Models.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              Whenever possible, I also apply my passion for Cybersecurity
+              with <b className="purple">Kali Linux</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Modern tools for social engineering and forensic analysis
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Angular.js</b>
+                <b className="purple"> ParrotOS and Metasploit</b>
               </i>
             </p>
           </Col>
