@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import { ImPointRight } from "react-icons/im";
 
 function About() {
   return (
@@ -34,6 +35,49 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
+        <h1 className="project-heading">
+          Education
+        </h1>
+        <br></br>
+        <p>
+          <font size="4">
+          <ul>
+            <li className="about-activity">
+              <ImPointRight style={{ verticalAlign: "middle" }} />
+              &nbsp;&nbsp; Degree : BTech in Computer Science
+              <br />
+              <span style={{ display: "inline-block", verticalAlign: "middle" }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; College : MIT Academy of Engineering<br></br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Year : 2019 - 2023<br></br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CGPA = 8.48
+              </span>
+            </li>
+            <br></br>
+            <li className="about-activity">
+              <ImPointRight style={{ verticalAlign: "middle" }} />
+              &nbsp;&nbsp; Degree : 12th HSC in Science
+              <br />
+              <span style={{ display: "inline-block", verticalAlign: "middle" }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; College : Kamalnayan Bajaj Junior College<br></br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Year : 2017 - 2019<br></br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Percentage = 71%
+              </span>
+            </li>
+            <br></br>
+            <li className="about-activity">
+              <ImPointRight style={{ verticalAlign: "middle" }} />
+              &nbsp;&nbsp; Degree : 10th SSC
+              <br />
+              <span style={{ display: "inline-block", verticalAlign: "middle" }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; School : Kamalnayan Bajaj High School<br></br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Year : 2005 - 2017<br></br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Percentage = 92%
+              </span>
+            </li>
+          </ul>
+          </font>
+        </p>
+        <br></br>
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
